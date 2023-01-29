@@ -5,8 +5,8 @@
 #include <iostream>
 #include <omp.h>
 
-#define N 10000 //Cantidad de elementos a manejar en el arreglo
-#define chunk 1000 //Tamaño que tendrán los pedazos de los arreglos para que cada hilo creado se encargue de esta cantidad de elementos
+#define N 32000 //Cantidad de elementos a manejar en el arreglo
+#define chunk 200 //Tamaño que tendrán los pedazos de los arreglos para que cada hilo creado se encargue de esta cantidad de elementos
 #define mostrar 20 //Manejar la cantidad de datos a mostrar
 
 void imprimeArreglo(float* d);
